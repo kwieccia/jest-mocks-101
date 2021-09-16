@@ -35,12 +35,12 @@ In JavaScript application you might need to mock:
 
 ## (4) Let’s move on to practice!
 
-- [`jest.fn()`]()
-- [`jest.spyOn()`]()
-- [`jest.mock()`]()
+- [`jest.fn()`](https://github.com/kwieccia/jest-mocks-101/tree/main/01-jest-fn)
+- [`jest.spyOn()`](https://github.com/kwieccia/jest-mocks-101/tree/main/02-jest-spy-on)
+- [`jest.mock()`](https://github.com/kwieccia/jest-mocks-101/tree/main/03-jest-mock)
 
 Lifehacks:
-01. [Global mocks]()
-02. [Different function mocks for each test case ]()
-03. [Restore original function for a single test case]()
-02. [ Deal with jest.mock() hoisting]()
+01. [Global mocks](https://github.com/kwieccia/jest-mocks-101/tree/main/04-global-mocks)
+02. [Different function mocks for each test case](https://github.com/kwieccia/jest-mocks-101/tree/main/05-mock-per-test)
+03. [Restore original function for a single test case](https://github.com/kwieccia/jest-mocks-101/tree/main/06-restore-mock)
+02. [Deal with jest.mock() hoisting](https://github.com/kwieccia/jest-mocks-101/tree/main/07-jest-mock-hoisting)
