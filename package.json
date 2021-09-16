@@ -1,0 +1,26 @@
+{
+  "name": "jest-mocks-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwieccia/jest-mocks-101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwieccia/jest-mocks-101/issues"
+  },
+  "homepage": "https://github.com/kwieccia/jest-mocks-101#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
+}
