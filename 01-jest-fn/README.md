@@ -41,4 +41,10 @@ describe('run callback', () => {
 
 And that’s the superpower of function mocks: they are not just dummy placeholders, they let us verify how function was used by the tested unit. They can also return any specified value.
 
+```
+const callbackMock = jest.fn(() => true);
+runCallback(19, callbackMock);
+expect(callbackMock()).toEqual(true);
+```
+
 Please remember that function mocks should be cleared between tests (`clearAllMocks`) if they are defined in higher scope and reused in multiple test cases  - they would keep the entire call history otherwise, and receiveing the calls from the first test case in a second test case is definitely something that we don’t want to happen.
