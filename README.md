@@ -1,5 +1,7 @@
 # jest-mocks-101
 
+Resources and examples for the [▶️ JavaScript testing: Jest mocks](https://www.youtube.com/watch?v=OS5mVVM5vAg) video presentation (recorded for the [Codete](https://www.facebook.com/codete)'s tech vlog series). 
+
 ```
 npm install
 npm run test
